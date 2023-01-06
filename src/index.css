@@ -40,7 +40,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7; 
-    /* text-align: center; */
     background-image: url(../src/assets/bg-texture.png);
 }
 
@@ -118,9 +117,20 @@ img {
 }
 
 
-/* =================MEDIA QUERIES FOR TABLETS================== */
+/* =================MEDIA QUERIES FOR TABLETS(MEDIUM DEVICE)================== */
 @media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container_width-md);
+    }
 
+    section {
+        margin-top: 6rem;
+    }
+}
+
+
+/* =================MEDIA QUERIES FOR MOBILE(SMALL DEVICE)================== */
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container_width-sm);
     }
