@@ -38,9 +38,9 @@ const About = () => {
         </div>
 
         <p>
-        This is just the test drive trying to know how much freedom we have.
-        Another one will just be test for control and knowing how fast we can push this up and running.
-        Life is good with technology and system security.
+        I work at the intersection of design, brand, code, strategy and content;
+         helping organizations bring their concepts and products to life…
+          To make people’s lives better. I believe learning is a recursive function.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
