@@ -9,8 +9,7 @@ const HeaderSocials = () => {
         <a href="https://www.linkedin.com/in/moustymainer/" target="_blank"><BsLinkedin /></a>
         <a href="https://github.com/mainerprenuer" target="_blank"><FaGithub /></a>
         <a href="https://twitter.com/moustymainer" target="_blank"><FaTwitter /></a>
-    </div>
-  )
-}
+    </div> 
+)}
  
 export default HeaderSocials

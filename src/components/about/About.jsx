@@ -38,9 +38,9 @@ const About = () => {
         </div>
 
         <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem. 
-        At vero eos et accusamus. Qui officia deserunt mollit anim id est laborum.
-        Corrupti quos dolores et quas molestias excepturi sint occaecati.
+        This is just the test drive trying to know how much freedom we have.
+        Another one will just be test for control and knowing how fast we can push this up and running.
+        Life is good with technology and system security.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
