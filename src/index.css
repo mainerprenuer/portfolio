@@ -24,9 +24,9 @@
 
 --container-width-lg: 75%;
 --container-width-md: 86%;
---container-width-ms: 90%;
+--container-width-sm: 90%;
 }
-
+ 
 html {
     scroll-behavior: smooth;
 }
@@ -63,7 +63,7 @@ h1 {
 
 section {
     margin: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section > h2, section > h5 {
