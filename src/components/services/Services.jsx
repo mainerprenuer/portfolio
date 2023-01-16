@@ -1,5 +1,6 @@
 import React from 'react'
 import './services.css'
+import {FcCheckmark} from 'react-icons/fc'
 
 const Services = () => {
   return (
@@ -14,7 +15,96 @@ const Services = () => {
         </div>
 
         <ul className='service__list'>
-          <li></li>
+         
+        <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+        </ul>
+      </article>
+            {/* END OF UI/UX */}
+      <article className='service'>
+        <div className='service__head'>
+          <h3>Web Development</h3>
+        </div>
+
+        <ul className='service__list'>
+         
+        <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+        </ul>
+      </article>
+        {/* END OF WEB DEVELOPMENT */}
+      <article className='service'>
+        <div className='service__head'>
+          <h3>Content Creation</h3>
+        </div>
+
+        <ul className='service__list'>
+         
+        <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          <li>
+            <FcCheckmark className='service__list-icon' />
+            <p>Learning is recursive function.</p>
+          </li>
+          
         </ul>
       </article>
     </div>
