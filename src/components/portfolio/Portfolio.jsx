@@ -1,11 +1,10 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio1.jpg'
-import IMG3 from '../../assets/portfolio1.jpg'
-import IMG4 from '../../assets/portfolio1.jpg'
-import IMG5 from '../../assets/portfolio1.jpg'
-import IMG6 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+// import IMG5 from '../../assets/portfolio1.jpg'
+// import IMG6 from '../../assets/portfolio1.jpg'
 
 const Portfolio = () => {
   return (
@@ -18,30 +17,30 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
     	      <img src={IMG1} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Party Agent Information Management System</h3>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/mainerprenuer' className='btn'>Github</a>
+          <a href='https://github.com/mainerprenuer/election_data' className='btn'>Github</a>
           <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-    	      <img src={IMG1} alt=""/>
+    	      <img src={IMG2} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Campaign Social Networking Platform</h3>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/mainerprenuer' className='btn'>Github</a>
-          <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/mainerprenuer/malami-connect' className='btn'>Github</a>
+          <a href='www.malamiconnect.org' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-    	      <img src={IMG1} alt=""/>
+    	      <img src={IMG3} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Snack Ordering App</h3>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/mainerprenuer' className='btn'>Github</a>
-          <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/mainerprenuer/godelicious/tree/master' className='btn'>Github</a>
+          <a href='https://godelbackend.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
