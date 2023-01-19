@@ -33,8 +33,8 @@ const data = [
   },
   {
     avatar: AVTR4,
-    name: 'Imran Umar',
-    review: 'Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function.'
+    name: 'Aisha Gummi',
+    review: "One of the most determined and hardworking person I knw, your confidence and zeal in tackling problems is outstanding. Your attitude towards your projects will take you to higher places where you'll grow your brand."
   }
 ]
 
