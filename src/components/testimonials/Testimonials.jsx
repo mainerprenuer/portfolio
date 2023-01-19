@@ -18,8 +18,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Muhammad Bello',
-    review: 'Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function, Learning is a recursive function.'
+    name: 'Mardiya Fanah',
+    review: " I'm really happy with your determination to finish this project. I know it wasn't easy, but I knew you could do it. Your helpful attitude makes it clear that you can continue to take on new challenges and grow, the young shall grow."
   },
   {
     avatar: AVTR2,
