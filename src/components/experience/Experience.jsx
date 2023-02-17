@@ -1,7 +1,7 @@
 import React from 'react'
 import './experience.css'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiCsswizardry, SiFlutter,SiJavascript, SiNestjs, SiBootstrap, SiTailwindcss, SiReact, SiMongodb, SiPython, SiDjango, SiPostgresql, SiDart } from 'react-icons/si'
+import {SiCsswizardry, SiFlutter,SiJavascript, SiFirebase, SiNestjs, SiBootstrap, SiTailwindcss, SiReact, SiMongodb, SiPython, SiDjango, SiPostgresql, SiDart } from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
 
 const Experience = () => {
@@ -117,6 +117,12 @@ const Experience = () => {
               <div>
               <h4>Nestjs</h4>
                <small className='text-light'>Basic</small>
+              </div>
+          </article><article className='experience__details'>
+             <SiFirebase className='experience__details-icon'/>
+              <div>
+              <h4>Firebase</h4>
+               <small className='text-light'>Experienced</small>
               </div>
           </article>
         </div>
