@@ -1,16 +1,8 @@
 import React from 'react'
 import './experience.css'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiCsswizardry} from 'react-icons/si'
-import {SiJavascript} from 'react-icons/si'
-import {SiBootstrap} from 'react-icons/si'
-import {SiTailwindcss} from 'react-icons/si'
-import {SiReact} from 'react-icons/si'
+import {SiCsswizardry, SiFlutter,SiJavascript, SiNestjs, SiBootstrap, SiTailwindcss, SiReact, SiMongodb, SiPython, SiDjango, SiPostgresql, SiDart } from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
-import {SiMongodb} from 'react-icons/si'
-import {SiPython} from 'react-icons/si'
-import {SiDjango} from 'react-icons/si'
-import {SiPostgresql} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -64,6 +56,13 @@ const Experience = () => {
                <small className='text-light'>Experienced</small>
               </div>
           </article>
+          <article className='experience__details'>
+             <SiFlutter className='experience__details-icon'/>
+              <div>
+              <h4>Flutter</h4>
+               <small className='text-light'>Experienced</small>
+              </div>
+          </article>
         </div>
       </div>
       {/* END OF FRONTEND */}
@@ -103,6 +102,20 @@ const Experience = () => {
              <SiPostgresql className='experience__details-icon'/>
               <div>
               <h4>PostgreSQL</h4>
+               <small className='text-light'>Basic</small>
+              </div>
+          </article>
+          <article className='experience__details'>
+             <SiDart className='experience__details-icon'/>
+              <div>
+              <h4>Dart</h4>
+               <small className='text-light'>Experienced</small>
+              </div>
+          </article>
+          <article className='experience__details'>
+             <SiNestjs className='experience__details-icon'/>
+              <div>
+              <h4>Nestjs</h4>
                <small className='text-light'>Basic</small>
               </div>
           </article>
