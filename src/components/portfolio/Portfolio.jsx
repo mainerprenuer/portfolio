@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className='portfolio__item-image'>
     	      <img src={IMG3} alt=""/>
           </div>
@@ -55,8 +55,8 @@ const Portfolio = () => {
           <a href='https://github.com/mainerprenuer/godelicious/tree/master' className='btn'>Github</a>
           <a href='https://godelbackend.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article>
-        
+        </article> */}
+
         {/* <article className='portfolio__item'>
           <div className='portfolio__item-image'>
     	      <img src={IMG1} alt=""/>
