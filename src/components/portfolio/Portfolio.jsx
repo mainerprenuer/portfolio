@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-// import IMG5 from '../../assets/portfolio1.jpg'
+import IMG5 from '../../assets/farmplug.png'
 // import IMG6 from '../../assets/portfolio1.jpg'
 
 const Portfolio = () => {
@@ -11,6 +11,17 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+
+      <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+    	      <img src={IMG5} alt=""/>
+          </div>
+          <h3>Farm Plug</h3>
+          <div className='portfolio__item-cta'>
+          <a href='https://github.com/mainerprenuer' className='btn'>Github</a>
+          <a href='https://farm-plug.vercel.app' className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
 
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
@@ -23,6 +34,7 @@ const Portfolio = () => {
           <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
     	      <img src={IMG2} alt=""/>
@@ -33,6 +45,7 @@ const Portfolio = () => {
           <a href='www.malamiconnect.org' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
     	      <img src={IMG3} alt=""/>
@@ -43,6 +56,7 @@ const Portfolio = () => {
           <a href='https://godelbackend.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+        
         {/* <article className='portfolio__item'>
           <div className='portfolio__item-image'>
     	      <img src={IMG1} alt=""/>
@@ -53,16 +67,7 @@ const Portfolio = () => {
           <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article> */}
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-    	      <img src={IMG1} alt=""/>
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className='portfolio__item-cta'>
-          <a href='https://github.com/mainerprenuer' className='btn'>Github</a>
-          <a href='https://apcaims.org' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+        
        
       </div>
     </section>
