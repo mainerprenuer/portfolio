@@ -10,7 +10,8 @@ import {FaNodeJs} from 'react-icons/fa'
 import {SiMongodb} from 'react-icons/si'
 import {SiPython} from 'react-icons/si'
 import {SiDjango} from 'react-icons/si'
-import {SiPostgresql} from 'react-icons/si'
+import {SiMysql} from 'react-icons/si'
+import {SiTypescript} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -100,9 +101,16 @@ const Experience = () => {
               </div>
           </article>
           <article className='experience__details'>
-             <SiPostgresql className='experience__details-icon'/>
+             <SiMysql className='experience__details-icon'/>
               <div>
-              <h4>PostgreSQL</h4>
+              <h4>MySQL</h4>
+               <small className='text-light'>Experienced</small>
+              </div>
+          </article>
+          <article className='experience__details'>
+             <SiTypescript className='experience__details-icon'/>
+              <div>
+              <h4>Typescript</h4>
                <small className='text-light'>Basic</small>
               </div>
           </article>
